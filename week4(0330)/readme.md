@@ -3,7 +3,8 @@
 - 리액트 컴포넌트의 역할
     - 어떠한 속성들을 입력으로 받아서 그에 맞는 리액트 엘리먼트를 생성해여 리턴해 주는 것
     - 화면에 나타날 엘리먼트를 생성
- ![image](https://github.com/user-attachments/assets/5bd098ac-381c-4273-92e4-599f25714988)
+
+![image](https://github.com/user-attachments/assets/5bd098ac-381c-4273-92e4-599f25714988)
 ![image](https://github.com/user-attachments/assets/ae7ad2dd-1a22-4098-b678-1b67a45746ed)
 
 
