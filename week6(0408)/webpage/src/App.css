@@ -1,0 +1,83 @@
+/* 기본 스타일 설정 */
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+/* app 배경 및 다크모드 */
+.app {
+  background-color: #f2f2f2;
+  min-height: 100vh;
+}
+.app.dark {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Navigation 스타일 */
+.navigation {
+  background: #3498db;
+  padding: 1rem;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation button {
+  background: #2980b9;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
+
+/* 메인 영역 스타일 */
+main {
+  padding: 2rem;
+}
+.cloud-list {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+/* 클라우드 카드 스타일 */
+.cloud-card {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  flex: 1 1 300px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.cloud-card:hover {
+  transform: scale(1.05);
+}
+.cloud-card a {
+  display: block;
+  margin-top: 0.5rem;
+  color: #3498db;
+  text-decoration: none;
+}
+
+/* 선택된 카드 정보 스타일 */
+.selected-info {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+/* Footer 스타일 */
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background: #3498db;
+  color: white;
+}
